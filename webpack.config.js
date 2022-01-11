@@ -5,7 +5,7 @@ var PrettierPlugin = require("prettier-webpack-plugin");
 const ESLintPlugin = require('eslint-webpack-plugin');
 const ErrorOverlayPlugin = require('error-overlay-webpack-plugin');
 
-const port = 3000;
+const port = 3001;
 let publicUrl = `ws://localhost:${port}/ws`;
 if(process.env.GITPOD_WORKSPACE_URL){
   const [schema, host] = process.env.GITPOD_WORKSPACE_URL.split('://');
